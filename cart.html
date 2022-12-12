@@ -1,0 +1,377 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Cart</title>
+    <link rel="icon" href="./images/letter-u.png" type="image/icon type">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <style type="text/css">
+      body{
+  background-color: #ececec;
+}
+/* @media screen and (max-width: 768px)
+{
+    .paycard
+    {
+    clear: both;
+    display: inline-table;
+    }
+    .promocard{
+      float: none !important;
+    }
+} */
+
+
+</style>
+  </head>
+<body>
+    <nav class="navbar">
+     
+        <div class="comm-nav">
+            <div style="width: 50%;">
+              Customer care &nbsp;  <a href="tel:647-979-9370" style="color: white;" ><strong>647 979 9370</strong></a>
+             </div>
+             <div style="width: 20%;">
+                
+             </div>
+            <div style="width: 30%;">
+                <ul class="comm-list">
+                    <li class="comm-item"><a href="" style="color: white;"> 
+                      <img style="width:15px;" src="./images/location-pin.png" alt=""> Stores </a></li>
+                    <li class="comm-item"><a href="" style="color: white;">Contact</a></li>
+                    <li class="comm-item"><a href="" style="color: white;">Newsletter </a></li>
+                    <li class="comm-item"><a href="" style="color: white;">Club </a></li>
+                </ul>
+            </div>
+        </div>    
+    
+        <div class="top-nav">
+            <!-- <div style="width: 33%;">
+                <form class="nosubmit">
+                    <input class="nosubmit" type="search" placeholder="Search...">
+                  </form>
+            </div> -->
+            <div style="width: 50%; justify-content: right; display: flex; ">
+                <a href="index.html"><img class="logo-icon" src="./images/upanah-f.png" alt=""></a>
+            </div>
+            <ul  style="width: 50%;" class="nav-logo">
+                <li class="logo-item">
+                    <img class="logo" src="./images/truck.png" alt="">
+                    <p class="pclass" >Track order</p>
+                </li>
+                <li class="logo-item" >
+                    <img class="logo" src="./images/login.png" alt="">
+                    <p class="pclass" >Login</p>
+                </li>
+                <li class="logo-item">
+                  <div style="width: 40px; position: relative;">
+                    <div class="numberCircle">
+                    <h5>0</h5> 
+                  </div>
+                  <img class="logo" src="./images/wishlist.png" alt="">
+                </div>
+                    <p class="pclass">wishlist</p>
+                </li>
+                <li class="logo-item">
+                  <div style="width: 40px; position: relative;">
+                    <div class="numberCircle">
+                    <h5>0</h5> 
+                  </div>
+                  <img class="logo"  src="./images/shopping-cart.png" alt="">
+                </div>
+                    <p class="pclass">$0.00</p>
+                </li>
+            </ul>
+        </div>
+    
+        <div style="display: flex ; flex-direction: row; width: 100%;">
+    
+        <div style="width: 30%;" >
+            <form class="nosubmit">
+                <input class="nosubmit" type="search" placeholder="Search...">
+              </form>
+        </div>
+        <div style="width: 70%;">
+          <ul class="nav-list" id="nav-id">
+            <!-- <li class="list-item" ><a href="">NEW</a></li> -->
+            <div class="dropdown">
+                <!-- <button class="dropbtn">Dropdown 
+                  <i class="fa fa-caret-down"></i>
+                </button> -->
+                
+                <li class="dropbtn list-item"><a href="" style="color: #f5605e;">MEN</a></li>
+                <div class="dropdown-content">
+                    <div class="head">
+                        <h2>MEN</h2>
+                    </div>
+                  <div class="row">
+                    <div class="column">
+                      <h3>Categories</h3>
+                      <a href="#">Athletic</a>
+                      <a href="#">Shoes</a>
+                      <a href="#">Boots</a>
+                    </div>
+                    <div class="column">
+                      <h3>Popular Brands</h3>
+                      <a href="#">Blundstone</a>
+                      <a href="#">Cambrian</a>
+                      <a href="#">ECCO</a>
+                    </div>
+                    <div class="column">
+                      <h3>Discover</h3>
+                      <a href="#">Race Ready</a>
+                      <a href="#">Healthcare Worker Picks</a>
+                      <a href="#">Orthopedic Footwear</a>
+                    </div>
+                    <div class="column">
+                      <h3>We Fit You</h3>
+                      <a href="#">Pedorthic Services</a>
+                      <a href="#">Size & Fit Guide</a>
+                      <a href="#">Repairs & Modificationsr</a>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+    
+             <div class="dropdown">
+                <li class="dropbtn list-item"><a href="">WOMEN</a></li>
+                <div class="dropdown-content">
+                    <div class="head">
+                        <h2>WOMEN</h2>
+                    </div>
+                  <div class="row">
+                    <div class="column">
+                      <h3>Categories</h3>
+                      <a href="#">Athletic</a>
+                      <a href="#">Shoes</a>
+                      <a href="#">Boots</a>
+                    </div>
+                    <div class="column">
+                      <h3>Popular Brands</h3>
+                      <a href="#">Blundstone</a>
+                      <a href="#">Cambrian</a>
+                      <a href="#">ECCO</a>
+                    </div>
+                    <div class="column">
+                      <h3>Discover</h3>
+                      <a href="#">Race Ready</a>
+                      <a href="#">Healthcare Worker Picks</a>
+                      <a href="#">Orthopedic Footwear</a>
+                    </div>
+                    <div class="column">
+                      <h3>We Fit You</h3>
+                      <a href="#">Pedorthic Services</a>
+                      <a href="#">Size & Fit Guide</a>
+                      <a href="#">Repairs & Modificationsr</a>
+                    </div>
+                  </div>
+                </div>
+             </div> 
+    
+             <div class="dropdown">
+                <li class="dropbtn list-item"><a href="">KIDS</a></li>
+                <div class="dropdown-content">
+                    <div class="head">
+                        <h2>KIDS</h2>
+                    </div>
+                  <div class="row">
+                    <div class="column">
+                      <h3>Categories</h3>
+                      <a href="#">Athletic</a>
+                      <a href="#">Shoes</a>
+                      <a href="#">Boots</a>
+                    </div>
+                    <div class="column">
+                      <h3>Popular Brands</h3>
+                      <a href="#">Blundstone</a>
+                      <a href="#">Cambrian</a>
+                      <a href="#">ECCO</a>
+                    </div>
+                    <div class="column">
+                      <h3>Discover</h3>
+                      <a href="#">Race Ready</a>
+                      <a href="#">Healthcare Worker Picks</a>
+                      <a href="#">Orthopedic Footwear</a>
+                    </div>
+                    <div class="column">
+                      <h3>We Fit You</h3>
+                      <a href="#">Pedorthic Services</a>
+                      <a href="#">Size & Fit Guide</a>
+                      <a href="#">Repairs & Modificationsr</a>
+                    </div>
+                  </div>
+                </div>
+             </div>
+            
+            <li class="list-item"><a href="">BRANDS</a></li>
+            <!-- <li class="list-image">
+                <a href=""><img style="height: 40px;"  src="./images/sale-tag.png" alt=""></a>
+            </li> -->
+            
+        </ul>
+        </div>
+        
+    
+        <!-- dropdown content-->
+    
+        </div>
+            
+            <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    
+    <div class="cartheader">
+        MY SHOPPING CART(1)
+    </div>
+    <div  class="wrapper">
+        <div class="paycard">
+            <div>
+                <img class="payimage" src="./images/product_test.png" alt="">
+            </div>
+            <div style="width: 35%;" class="paycontent">
+                <p class="paycontenttext">Classic Shoes with strap</p>
+                <p class="paynormaltext">Color : Black and Brown</p>
+                <p class="paynormaltext">Size : XS</p>
+                <p class="paynormaltext">Style Number : 531861_90</p>
+            </div>
+    
+            <div style="width: 35%;" class="paycontentamount">
+                <p class="paycontenttext">CAD $75.00</p>
+                <i style="padding: 10px;width: 10px;" class="fa fa-pencil" aria-hidden="true"></i>
+                <i style="padding: 10px;width: 10px;" class="fa fa-trash" aria-hidden="true"></i>
+            </div>
+    
+        </div>
+        <div class="promocard">
+          <a style="text-decoration: none;color:black" href="">
+            <div class="paymenttextbox" style="background-color: rgb(129, 118, 118);">
+              <p style="text-align: center;margin-top: 12px;" class="paycontenttext">
+                FREE RETURNS ON ALL QUALIFYING ORDERS.</p>
+              </div>
+          </a>
+            
+            <a style="text-decoration: none;color:black" href="">
+              <div class="paymenttextbox" style="background-color: rgb(129, 118, 118);">
+                <p style="text-align: center;margin-top: 12px;" class="paycontenttext">
+                    APPLY PROMO CODE</p>
+            </div>
+            </a>
+
+            <div>
+                <div style="display: flex; flex-direction:row">
+                    <div class="paycontenttext" style="width: 50%;padding: 20px;color: rgb(24, 22, 22)">
+                        SUBTOTAL</div>
+                    <div class="paycontenttext" style="text-align:right;width: 50%;padding: 20px;color: rgb(36, 33, 33)">
+                        CAD $75.00</div>
+                </div>
+            </div>
+
+            <div>
+                <div style="display: flex; flex-direction:row">
+                    <div class="paycontenttext" style="width: 50%;padding: 15px;color: rgb(29, 28, 28) ;">
+                        SHIPPING COSTS</div>
+                    <div class="paycontenttext" style="text-align:right;width: 50%;padding: 10px;color: rgb(27, 26, 26)">
+                        CAD $0.00</div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div>
+                <div style="display: flex; flex-direction:row">
+                    <div class="paycontenttext" style="width: 50%;padding: 15px;color: rgb(31, 30, 30) ;">
+                        TOTAL</div>
+                    <div class="paycontenttext" style="text-align:right;width: 50%;padding: 15px;color: rgb(36, 34, 34)">
+                        CAD $75.00</div>
+                </div>
+            </div>
+
+            <a style="text-decoration: none;color:black" href=""> 
+            <div class="paymenttextbox" style="background-color: rgb(129, 118, 118);">
+                <p style="text-align: center;margin-top: 12px;" class="paycontenttext">
+                    CHECKOUT</p>
+            </div>
+            </a>
+
+            <a style="text-decoration: none;color:black" href="">
+            <div  class="paymenttextboxpayal" style="background-color: rgb(240, 122, 122);">
+                <div style="width: 30%;">
+                    <img style="height: 50px;width: 100px;float: right;padding: 0;"
+                     src="./images/paypal.png" alt="">
+                </div> 
+                <div style="width: 70%;">
+                    <p style="text-align: center;margin-top: 16px;text-align: left; " 
+                    class="paycontenttext">
+                        CONTINUE WITH PAYPAL</p>
+                </div>
+            </div>
+            </a>
+
+        </div>
+
+    </div>
+    <p style="text-align: center;margin-bottom: 10px; ">OUR TRUSTED PAYMENT PARTNERS</p>
+    <hr>
+
+    <div style="display: flex;flex-direction: row;">
+            <div>
+
+            </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div style="width: 25%; margin: 50px;">
+          <h4>LET US HELP YOU</h4>
+           <div class="columnfooter">
+            <a class="afooter" href="">Contact Us</a>
+            <a class="afooter" ref="">FAQ</a>
+            <a class="afooter" href="">Privacy Policy</a>
+            <a class="afooter" href="">Check Order</a>
+           </div>
+         </div>
+         <div style="width: 25% ; margin: 50px">
+            <h4>USEFUL LINKS</h4>
+            <div class="columnfooter">
+              <a class="afooter" href="">Terms and Conditions</a>
+              <a class="afooter" href="">Connect with us on WhatsApp</a>
+              <a class="afooter" href="">Invite Bata Store On Wheels</a>
+              <a class="afooter" href="">Become Our Partner</a>
+              <a class="afooter" href="">COVID Safety Guidelines</a>
+            </div>
+         </div>
+
+         <div style="width: 25% ; margin: 50px">
+          <h4>COMPANY</h4>
+          <div class="columnfooter">
+            <a class="afooter"  href="">About Us</a>
+            <a class="afooter" href="">Press Release</a>
+            <a class="afooter" href="">CSR</a>
+            <a class="afooter" href="">Awards & Recognition</a>
+            <a class="afooter" href="">Whistle Blow Policy</a>
+            <a class="afooter" href="">POSH Policy</a>
+            <a class="afooter" href="">Investor Relations</a>
+          </div>
+
+          <h4 style="margin-top: 100px;" >&copy;2022 Upanah Brand</h4>  
+       </div>
+       <div style="width: 25% ; margin: 50px">
+        <h4>FOLLOW US</h4>
+          <div class="footerimage">
+             <img class="footerimage"  src="./images/facebook.png" alt=""> 
+             <img class="footerimage" src="./images/instagram.png" alt="">
+             <img class="footerimage" src="./images/youtube.png" alt="">
+          </div>
+       </div>
+
+  </footer>
+
+</body>
+</html>
