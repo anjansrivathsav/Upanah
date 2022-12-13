@@ -729,9 +729,13 @@ form.nosubmit {
   }
   .widthfifty{
     width: 100%;
+    overflow: hidden;
   }
   .widththirtytwo{
     width: 100%;
+  }
+  body{
+    overflow: hidden;
   }
 }
 
