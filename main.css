@@ -676,6 +676,17 @@ form.nosubmit {
   display: block;
 }
 
+.partnerlogo{
+  display: block;
+  margin: auto;
+  height: 50px;
+}
+
+.sizetypes:hover{
+  background-color: #000000;
+  color: white;
+}
+
 /* media queries */
 @media (max-width: 800px) { /* Change this to 400px, 800px for demo purpose */
   .wrapper {
