@@ -734,9 +734,6 @@ form.nosubmit {
   .widththirtytwo{
     width: 100%;
   }
-  body{
-    overflow: hidden;
-  }
 }
 
 @media (min-width: 800px){
