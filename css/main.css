@@ -11,6 +11,9 @@
 .pclass{
   margin-top:5px
 }
+.textright{
+  text-align: right;
+}
 
 .navbar {
     background-color: white;
@@ -29,6 +32,25 @@
     height: 100px;
     
 }
+.nav-logo .logo-item{
+  /* display: inline-block; */
+  margin: 20px;
+  float: right;
+}
+
+.numberCircle {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background: rgb(221, 24, 24);
+  color: #FFFFFF;
+  text-align: center;
+  font: 2px;
+}
+
 .headercolor{
   color: white;
 }
@@ -45,11 +67,31 @@
     box-shadow: 8px 8px;
 }
 
+.comm-list{
+  list-style-type: none;
+  margin: auto;
+  align-items: right;
+}
+.comm-list .comm-item{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #FFFFFF;
+}
 
 .logo-icon{
     height: 120px;
     align-items: center;
     /* margin-top: 20px; */
+}
+
+.navtest{
+  list-style-type: none;
+  display: inline-block;
+    padding: 20px 10px;
+    text-align: center;
+    margin: 15px;
+    margin-top: 0;
 }
 
 .nav-list{
@@ -77,23 +119,8 @@
     margin-top: 20px;
    
 }
-.nav-logo .logo-item{
-    /* display: inline-block; */
-    margin: 20px;
-    float: right;
-}
 
-.comm-list{
-    list-style-type: none;
-    margin: auto;
-    align-items: right;
-}
-.comm-list .comm-item{
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #FFFFFF;
-}
+
 
 .navbar a{
     /* color: #000000; */
@@ -164,6 +191,10 @@
     height: 25px;
 }
 
+
+.logowidth{
+  width: 15px;
+}
   
 form.nosubmit {
     border: none;
@@ -313,6 +344,11 @@ form.nosubmit {
     height: 25px;
     margin: 5px;
   }
+  .footerdiv{
+    width: 25%;
+     margin: 50px;
+  }
+  
 
   .inputalign{
     margin-left: 25%;
@@ -351,19 +387,7 @@ form.nosubmit {
   }
 
 
-  .numberCircle {
-    border-radius: 50%;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    right: 0;
-    position: absolute;
-    background: rgb(221, 24, 24);
-    color: #FFFFFF;
-    text-align: center;
-
-    font: 2px Arial, sans-serif;
-}
+  
 
 /* zoom effect on hover on images */
 
@@ -376,14 +400,14 @@ form.nosubmit {
 } */
 
 .zoom:hover {
-  -ms-transform: scale(1.03); /* IE 9 */
-  -webkit-transform: scale(1.03); /* Safari 3-8 */
+  -ms-transform: scale(1.03); 
+  -webkit-transform: scale(1.03); 
   transform: scale(1.03); 
 }
 
 .img-hover-zoom {
-  height: 300px; /* Modify this according to your need */
-  overflow: hidden; /* Removing this will break the effects */
+  height: 300px; 
+  overflow: hidden; 
 }
 
 .img-hover-zoom--brightness img {
@@ -417,6 +441,9 @@ form.nosubmit {
   }
 }
 
+.sizemargin{
+  margin: 12px;
+}
 /* trying the image grid */
 
 .parent {
@@ -687,8 +714,10 @@ form.nosubmit {
   color: white;
 }
 
+
+
 /* media queries */
-@media (max-width: 800px) { /* Change this to 400px, 800px for demo purpose */
+@media (max-width: 768px) { /* Change this to 400px, 800px for demo purpose */
   .wrapper {
     display: flex;
     flex-direction: column; /* For vertical placement of items */
@@ -727,7 +756,7 @@ form.nosubmit {
   }
 }
 
-@media (max-width : 800px){
+@media (max-width : 768px){
   .footer{
     display: flex;
     flex-direction: column;
@@ -737,7 +766,7 @@ form.nosubmit {
 }
 
 
-@media (max-width: 800px) { /* Change this to 400px, 800px for demo purpose */
+@media (max-width: 768px) { /* Change this to 400px, 800px for demo purpose */
   .mainproduct{
     display: flex;
     flex-direction: column; /* For vertical placement of items */
@@ -783,7 +812,7 @@ form.nosubmit {
   }
 }
 
-@media (min-width: 800px){
+@media (min-width: 768px){
 .widthtwenty{
     width: 20%;
 }
