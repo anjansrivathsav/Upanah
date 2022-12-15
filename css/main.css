@@ -630,6 +630,7 @@ form.nosubmit {
 
 .paycontent{
   margin: 15px;
+  width: 35%;
 }
 
 .paycontenttext{
@@ -643,6 +644,7 @@ form.nosubmit {
 .paycontentamount{
   margin: 15px;
   text-align: right;
+  width: 35%;
 }
 
 
@@ -695,6 +697,14 @@ form.nosubmit {
   color: white;
 }
 
+.pencil{
+  padding: 10px;
+  width: 10px;
+}
+
+.contentwidth{
+  width: 35%;
+}
 
 
 /* media queries */
@@ -723,9 +733,6 @@ form.nosubmit {
     width: auto;
   }
   .paymenttextbox{
-    width: auto;
-  }
-  .paycontentamount{
     width: auto;
   }
   .paycard{
@@ -816,3 +823,35 @@ form.nosubmit {
 }
 
 
+.glassBox {
+  width: 100%;
+  height: 250px;
+  max-width: 300px;
+  border-radius: 5px;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.glassBox, .glassBox * {
+  transition: 400ms;
+}
+.animebackground{
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+.glassBox__imgBox img {
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+.glassBox:hover .glassBox__imgBox {
+  transform: translateY(-50px);
+}
+.glassBox:hover .glassBox__imgBox img {
+  transform: translate(-20px, -40px) rotate(-15deg) scale(1.4);
+}
