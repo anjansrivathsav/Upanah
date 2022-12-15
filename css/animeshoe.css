@@ -8,7 +8,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   margin-left: 50px;
   margin-top: 15px;
 }
@@ -25,31 +24,12 @@
   height: auto;
   
 }
+
 .glassBox:hover .glassBox__imgBox {
   transform: translateY(-50px);
 }
 .glassBox:hover .glassBox__imgBox img {
   transform: translate(-20px, -40px) rotate(-15deg) scale(1.4);
-}
-.glassBox__title {
-  text-align: center;
-  margin-top: 15px;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 400;
-  font-family: "Lato";
-}
-.glassBox__content {
-  position: absolute;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  text-align: center;
-  color: #fff;
-  font-size: 14px;
-  font-family: "Lato";
-  letter-spacing: 0.1em;
-  opacity: 0;
 }
 
 

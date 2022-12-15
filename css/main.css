@@ -245,8 +245,7 @@ form.nosubmit {
     text-align: left;
   }
   
-  
-  /* Clear floats after the columns */
+
   .row:after {
     content: "";
     clear: both;
@@ -387,17 +386,6 @@ form.nosubmit {
   }
 
 
-  
-
-/* zoom effect on hover on images */
-
-/* .zoom {
-  padding: 50px;
-  transition: transform .2s;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-} */
 
 .zoom:hover {
   -ms-transform: scale(1.03); 
@@ -416,24 +404,19 @@ form.nosubmit {
   filter: brightness(50%);
 }
 
-/* The Transformation */
 .img-hover-zoom--brightness:hover img {
   filter: brightness(100%);
   transform: scale(1.3);
 }
 
 
-/* adding the slide show for the images */
-
-.tech-slideshow > div {
-  transform: translate3d(0, 0, 0);
-  /* overflow-x: hidden; */
-}
 
 .tech-slideshow .mover-1 {
   animation: moveSlideshow 5s linear infinite;
   
+
 }
+
 
 @keyframes moveSlideshow {
   100% { 
@@ -479,7 +462,6 @@ form.nosubmit {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
   width: 300px;
   background-color: white;
   border-radius: 12px 12px 0px 0px;
@@ -625,7 +607,6 @@ form.nosubmit {
 
 .paycard {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
   width: 50%;
   height: 250px;
   background-color: white;
@@ -717,14 +698,14 @@ form.nosubmit {
 
 
 /* media queries */
-@media (max-width: 768px) { /* Change this to 400px, 800px for demo purpose */
+@media (max-width: 768px) { 
   .wrapper {
     display: flex;
-    flex-direction: column; /* For vertical placement of items */
+    flex-direction: column; 
   }
   .wrapper2 {
     display: flex;
-    flex-direction: column; /* For vertical placement of items */
+    flex-direction: column; 
   }
   .inputsubmit{
     margin: auto;
@@ -766,10 +747,10 @@ form.nosubmit {
 }
 
 
-@media (max-width: 768px) { /* Change this to 400px, 800px for demo purpose */
+@media (max-width: 768px) { 
   .mainproduct{
     display: flex;
-    flex-direction: column; /* For vertical placement of items */
+    flex-direction: column; 
   }
   .product{
     width: auto;
